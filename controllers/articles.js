@@ -5,4 +5,5 @@ const getArticles = (req, res) => {
     })
 }
 
-module.exports = {getArticles}
+module.exports = {getArticles};
+

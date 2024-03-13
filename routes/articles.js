@@ -3,9 +3,7 @@ const articlesRouter = express.Router();
 const articles = require('../models/articles.json');
 const { getArticles } = require('../controllers/articles');
 
-
-
-articlesRouter.get('/', getArticles)
+articlesRouter.get('/', getArticles);
 
 articlesRouter.get('/:id', (req, res) => {
     const id = req.params.id;
